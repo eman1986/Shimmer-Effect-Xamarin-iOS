@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="197" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="20" width="240" height="128"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0.925490196078431" alpha="1"/>
+                                <constraints>
+                                    <constraint id="210" firstAttribute="height" constant="128"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" id="199" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="216" width="240" height="22"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0.925490196078431" alpha="1"/>
+                                <constraints>
+                                    <constraint id="216" firstAttribute="height" constant="22"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" id="198" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="174" width="240" height="22"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0.925490196078431" alpha="1"/>
+                                <constraints>
+                                    <constraint id="211" firstAttribute="height" constant="22"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" id="200" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="258" width="240" height="22"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0.925490196078431" alpha="1"/>
+                                <constraints>
+                                    <constraint id="221" firstAttribute="height" constant="22"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="3378" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="299" width="240" height="30"/>
+                                <state key="normal" title="Animate Top To Bottom"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="3455" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="337" width="240" height="30"/>
+                                <state key="normal" title="Animate Bottom To Top"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="3456" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="375" width="240" height="30"/>
+                                <state key="normal" title="Animate Left To Right"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="3457" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="413" width="240" height="30"/>
+                                <state key="normal" title="Animate Right To Left"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="3513" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="40" y="451" width="240" height="30"/>
+                                <state key="normal" title="Stop Animation">
+                                    <color key="titleColor" systemColor="systemRedColor" colorSpace="custom" customColorSpace="sRGB" red="1" green="0.231372549019608" blue="0.188235294117647" alpha="1"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="206" firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="207" firstItem="197" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom"/>
+                            <constraint id="208" firstAttribute="trailingMargin" secondItem="197" secondAttribute="trailing" constant="24"/>
+                            <constraint id="209" firstItem="197" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="212" firstItem="198" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="213" firstItem="198" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="26"/>
+                            <constraint id="214" firstItem="198" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="215" firstAttribute="trailingMargin" secondItem="198" secondAttribute="trailing" constant="24"/>
+                            <constraint id="217" firstItem="199" firstAttribute="top" secondItem="198" secondAttribute="bottom" constant="20"/>
+                            <constraint id="218" firstItem="199" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="219" firstItem="199" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="220" firstAttribute="trailingMargin" secondItem="199" secondAttribute="trailing" constant="24"/>
+                            <constraint id="222" firstItem="200" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="223" firstItem="200" firstAttribute="top" secondItem="199" secondAttribute="bottom" constant="20"/>
+                            <constraint id="224" firstItem="200" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="225" firstAttribute="trailingMargin" secondItem="200" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3515" firstItem="3378" firstAttribute="top" secondItem="200" secondAttribute="bottom" constant="19"/>
+                            <constraint id="3516" firstAttribute="trailingMargin" secondItem="3378" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3517" firstItem="3378" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="3518" firstItem="3455" firstAttribute="top" secondItem="3378" secondAttribute="bottom" constant="8"/>
+                            <constraint id="3519" firstItem="3455" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="3554" firstAttribute="trailingMargin" secondItem="3455" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3555" firstItem="3456" firstAttribute="top" secondItem="3455" secondAttribute="bottom" constant="8"/>
+                            <constraint id="3556" firstItem="3456" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="3557" firstAttribute="trailingMargin" secondItem="3456" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3596" firstItem="3457" firstAttribute="top" secondItem="3456" secondAttribute="bottom" constant="8"/>
+                            <constraint id="3597" firstAttribute="trailingMargin" secondItem="3457" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3598" firstItem="3457" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                            <constraint id="3640" firstItem="3513" firstAttribute="top" secondItem="3457" secondAttribute="bottom" constant="8"/>
+                            <constraint id="3641" firstAttribute="trailingMargin" secondItem="3513" secondAttribute="trailing" constant="24"/>
+                            <constraint id="3642" firstItem="3513" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="vHeader" destination="197" id="name-outlet-197"/>
+                        <outlet property="vLineOne" destination="198" id="name-outlet-198"/>
+                        <outlet property="vLineTwo" destination="199" id="name-outlet-199"/>
+                        <outlet property="vLineThree" destination="200" id="name-outlet-200"/>
+                        <outlet property="btnAnimateTopToBottom" destination="3378" id="name-outlet-3378"/>
+                        <outlet property="btnAnimateBottomToTop" destination="3455" id="name-outlet-3455"/>
+                        <outlet property="btnAnimateLeftToRight" destination="3456" id="name-outlet-3456"/>
+                        <outlet property="btnAnimateRightToLeft" destination="3457" id="name-outlet-3457"/>
+                        <outlet property="btnStopAnimation" destination="3513" id="name-outlet-3513"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
